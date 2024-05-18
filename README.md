@@ -10,8 +10,10 @@
 MyAnswer is an innovative web application designed to enhance the viva voce experience for partially blind individuals. Leveraging the power of Vertex AI and generative AI, this app provides a seamless and effective platform for remote examinations and assessments. Teachers can create and manage tests, while students can participate in exams and receive instant feedback through audio and text.
 
 ## Team Members
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
+1. [Sandeep Sreekumar](https://github.com/sandeepsreekumar4067)
+2. [Nevin](https://github.com/Nevin-10)
+3. [Jebin Shaju](https://github.com/jebinshaju)
+4. [Aleena Maria Rajesh](https://github.com/prettycoolvariables)
 
 ## Link to Product Walkthrough
 https://drive.google.com/file/d/1Cw_lX5GIrAEY6QdPkGhvUGthMxq8crkR/view?usp=sharing
