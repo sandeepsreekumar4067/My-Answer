@@ -1,9 +1,6 @@
+---
 
-
-![Streamlit notion](https://github.com/TH-Activities/saturday-hack-night-template/assets/117498997/e8052bb6-ad89-48c3-b6e9-124f94c1cd01)
-
-
-
+![Streamlit Notion](https://github.com/TH-Activities/saturday-hack-night-template/assets/117498997/e8052bb6-ad89-48c3-b6e9-124f94c1cd01)
 
 # MyAnswer 🎤
 
@@ -11,12 +8,15 @@ MyAnswer is an innovative web application designed to enhance the viva voce expe
 
 ## Team Members
 1. [Sandeep Sreekumar](https://github.com/sandeepsreekumar4067)
-2. [Nevin Thomas](https://github.com/Nevin-10)
+2. [Nevin](https://github.com/Nevin-10)
 3. [Jebin Shaju](https://github.com/jebinshaju)
 4. [Aleena Maria Rajesh](https://github.com/prettycoolvariables)
 
 ## Link to Product Walkthrough
-https://drive.google.com/file/d/1Cw_lX5GIrAEY6QdPkGhvUGthMxq8crkR/view?usp=sharing
+
+[Link to video]([Link Here](https://drive.google.com/file/d/1Cw_lX5GIrAEY6QdPkGhvUGthMxq8crkR/view?usp=sharing))
+
+**The site is live at [MyAnswer](https://myanswer-w67ctr3rca-el.a.run.app).**
 
 ## How It Works
 ### Teacher Functionality:
@@ -46,19 +46,19 @@ https://drive.google.com/file/d/1Cw_lX5GIrAEY6QdPkGhvUGthMxq8crkR/view?usp=shari
 
 ## Configuration Steps
 1. *Clone the Repository*:
-    bash
+    ```bash
     git clone https://github.com/sandeepsreekumar4067/StreamLit_Tinkerhub_2024
     cd myanswer
-    
+    ```
 
 2. *Install Required Libraries*:
-    bash
+    ```bash
     pip install -r requirements.txt
-    
+    ```
 
 3. *Firebase Configuration*:
     - Set up your Firebase project and configure the firebaseConfig in the app code.
-    python
+    ```python
     firebaseConfig = {
         'apiKey': "YOUR_API_KEY",
         'authDomain': "YOUR_AUTH_DOMAIN",
@@ -69,39 +69,39 @@ https://drive.google.com/file/d/1Cw_lX5GIrAEY6QdPkGhvUGthMxq8crkR/view?usp=shari
         'measurementId': "YOUR_MEASUREMENT_ID",
         'databaseURL': 'YOUR_DATABASE_URL'
     }
-    
+    ```
 
 4. *Vertex AI Initialization*:
     - Initialize Vertex AI with your project details.
-    python
+    ```python
     vertexai.init(project="YOUR_PROJECT_ID", location="YOUR_LOCATION")
-    
+    ```
 
 ## Running the Application
 1. *Run the Streamlit App*:
-    bash
+    ```bash
     streamlit run app.py
-    
+    ```
 
 2. *Access the App*:
     - Open your web browser and go to http://localhost:8501.
 
 ## Deployment on Google Cloud
 1. *Build the Docker Image*:
-    bash
+    ```bash
     docker build -t myanswer .
-    
+    ```
 
 2. *Push the Docker Image to Google Container Registry*:
-    bash
+    ```bash
     docker tag myanswer gcr.io/your-project-id/myanswer
     docker push gcr.io/your-project-id/myanswer
-    
+    ```
 
 3. *Deploy to Cloud Run*:
-    bash
+    ```bash
     gcloud run deploy myanswer --image gcr.io/your-project-id/myanswer --platform managed
-    
+    ```
 
 ## Key Features
 - *Accessibility*: Enhances the viva experience for partially blind students with audio-based interactions.
@@ -111,3 +111,7 @@ https://drive.google.com/file/d/1Cw_lX5GIrAEY6QdPkGhvUGthMxq8crkR/view?usp=shari
 
 ## Conclusion
 MyAnswer revolutionizes the viva voce process for partially blind individuals by integrating advanced AI technologies to create an inclusive, effective, and user-friendly examination platform. Join us in making education more accessible and engaging for everyone.
+
+
+
+---
