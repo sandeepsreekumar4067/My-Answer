@@ -11,7 +11,7 @@ MyAnswer is an innovative web application designed to enhance the viva voce expe
 
 ## Team Members
 1. [Sandeep Sreekumar](https://github.com/sandeepsreekumar4067)
-2. [Nevin](https://github.com/Nevin-10)
+2. [Nevin Thomas](https://github.com/Nevin-10)
 3. [Jebin Shaju](https://github.com/jebinshaju)
 4. [Aleena Maria Rajesh](https://github.com/prettycoolvariables)
 
