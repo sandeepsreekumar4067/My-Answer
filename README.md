@@ -1,7 +1,5 @@
 ---
 
-![Streamlit Notion](https://github.com/TH-Activities/saturday-hack-night-template/assets/117498997/e8052bb6-ad89-48c3-b6e9-124f94c1cd01)
-
 # MyAnswer 🎤
 
 MyAnswer is an innovative web application designed to enhance the viva voce experience for partially blind individuals. Leveraging the power of Vertex AI and generative AI, this app provides a seamless and effective platform for remote examinations and assessments. Teachers can create and manage tests, while students can participate in exams and receive instant feedback through audio and text.
